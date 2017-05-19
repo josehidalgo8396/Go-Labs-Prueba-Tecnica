@@ -1,11 +1,3 @@
-/*
-   * @ngdoc Controller
-   * @author Luis Javier Ramírez Torres
-   * @name GestionUsuariosCtrl
-   * @description
-   * #  controller para los cupones y promociones
-*/
-
 (function(){
   'use strict';
   angular
