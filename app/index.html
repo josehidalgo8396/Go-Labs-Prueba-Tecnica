@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Prueba-Go-Labs</title>
+
+        <link rel="stylesheet" href="libs/css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/css/style/font-awesome.min.css">
+        <link rel="stylesheet" href="libs/css/angular-ui-navbar/ui-navbar.css">
+        <link rel="stylesheet" href="libs/css/style/sticky-footer-navbar.css">
+        <link rel="stylesheet" href="libs/css/style/header-custom.css"> 
+        <link rel="stylesheet" href="libs/css/style/navbar-custom.css">  
+        <link rel="icon" href="data:;base64,=">
+
+    </head>
+    <body ng-app="GoLabs">
+    <!-- Aquí se carga el contenido de la  página -->
+        <div>
+            <div ui-view></div>
+        </div>
+    </body>
+    <!-- carga de librerias -->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular/angular-cookies.js"></script>
+    <script src="libs/ui-router/angular-ui-router.js"></script>
+    <script src="libs/jquery/jquery-2.2.0.min.js"></script>
+    <script src="libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="libs/angular-ui-bootstrap/ui-bootstrap.js"></script>
+    <script src="libs/angular-ui-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="libs/angular-ui-navbar/ui-navbar.min.js"></script>
+
+    <!-- Carga app en angular -->
+    <script src="./app.js"></script>
+
+    <!--Caga de controladores-->
+    <script src="home/controllers/home.js"></script>
+
+    <!--Caga de servicios-->
+    <script src="common/services/request-service.js"></script>
+    <script src="home/services/homeService.js"></script>
+
+</html>

@@ -1,0 +1,39 @@
+<div class="ui-base">
+	<div class="header-custom">
+		<h2>Contadores</h2>
+	</div>
+	<div class="container"> 
+		<br><br>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Base de Datos</th>
+							<th>Cookies</th>
+							<th>Sesiones</th>
+							<th>Local Storage</th>
+						</tr>
+					</thead>
+					<tbody> 
+						<tr>
+							<td>
+								<button class="btn btn-primary btn-lg" ng-model="bd" ng-click="setBD(bd)">{{bd.valor}}</button>
+							</td>
+							<td>
+								<button class="btn btn-success btn-lg" ng-model="cookies" ng-click="setCookie()">{{cookies}}</button>
+							</td>
+							<td>
+								<button class="btn btn-warning btn-lg" ng-model="ss" ng-click="setSessionStorage()">{{ss}}</button>
+							</td>
+							<td>
+								<button class="btn btn-danger btn-lg" ng-model="ls" ng-click="setLocalStorage()">{{ls}}</button>
+							</td> 
+						</tr>             
+					</tbody>
+				</table>
+			</div>
+		</div>
+    </div>
+</div>
+
